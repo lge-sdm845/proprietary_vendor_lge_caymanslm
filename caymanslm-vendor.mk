@@ -74,18 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/caymanslm/proprietary/vendor/etc/sensors/registry/registry/sensors_settings:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/registry/sensors_settings \
     vendor/lge/caymanslm/proprietary/vendor/etc/sensors/registry/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/sns_reg_config \
     vendor/lge/caymanslm/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/lge/caymanslm/proprietary/vendor/etc/wifi/GLOBAL/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/GLOBAL/bdwlan.bin \
-    vendor/lge/caymanslm/proprietary/vendor/etc/wifi/GLOBAL/bdwlan_ch0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/GLOBAL/bdwlan_ch0.bin \
-    vendor/lge/caymanslm/proprietary/vendor/etc/wifi/GLOBAL/bdwlan_ch1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/GLOBAL/bdwlan_ch1.bin \
-    vendor/lge/caymanslm/proprietary/vendor/etc/wifi/KR_ALL/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/KR_ALL/bdwlan.bin \
-    vendor/lge/caymanslm/proprietary/vendor/etc/wifi/KR_ALL/bdwlan_ch0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/KR_ALL/bdwlan_ch0.bin \
-    vendor/lge/caymanslm/proprietary/vendor/etc/wifi/KR_ALL/bdwlan_ch1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/KR_ALL/bdwlan_ch1.bin \
-    vendor/lge/caymanslm/proprietary/vendor/etc/wifi/NA_CDMA/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/NA_CDMA/bdwlan.bin \
-    vendor/lge/caymanslm/proprietary/vendor/etc/wifi/NA_CDMA/bdwlan_ch0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/NA_CDMA/bdwlan_ch0.bin \
-    vendor/lge/caymanslm/proprietary/vendor/etc/wifi/NA_CDMA/bdwlan_ch1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/NA_CDMA/bdwlan_ch1.bin \
-    vendor/lge/caymanslm/proprietary/vendor/etc/wifi/NA_GSM/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/NA_GSM/bdwlan.bin \
-    vendor/lge/caymanslm/proprietary/vendor/etc/wifi/NA_GSM/bdwlan_ch0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/NA_GSM/bdwlan_ch0.bin \
-    vendor/lge/caymanslm/proprietary/vendor/etc/wifi/NA_GSM/bdwlan_ch1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/NA_GSM/bdwlan_ch1.bin \
     vendor/lge/caymanslm/proprietary/vendor/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.bin \
     vendor/lge/caymanslm/proprietary/vendor/etc/wifi/bdwlan_ch0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_ch0.bin \
     vendor/lge/caymanslm/proprietary/vendor/etc/wifi/bdwlan_ch1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_ch1.bin \
