@@ -341,5 +341,8 @@ PRODUCT_PACKAGES += \
     vendor.lge.hardware.biometrics.fingerprint@2.2-service
 
 PRODUCT_PACKAGES += \
+    bdwlan_bdwlan_symlink \
+    bdwlan_ch0_bdwlan_ch0_symlink \
+    bdwlan_ch1_bdwlan_ch1_symlink \
     libc++_shared_snpe_libc++_shared_symlink32 \
     libc++_shared_snpe_libc++_shared_symlink64
