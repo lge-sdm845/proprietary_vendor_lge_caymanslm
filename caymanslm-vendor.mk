@@ -339,3 +339,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.lge.hardware.biometrics.fingerprint@2.2-service
+
+PRODUCT_PACKAGES += \
+    libc++_shared_snpe_libc++_shared_symlink32 \
+    libc++_shared_snpe_libc++_shared_symlink64
