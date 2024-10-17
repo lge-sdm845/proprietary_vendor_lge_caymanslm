@@ -5,50 +5,12 @@
 soong_namespace {
 	imports: [
 		"vendor/lge/sdm845-common",
+		"device/lge/sdm845-common",
+		"hardware/qcom-caf/common/libqti-perfd-client",
+		"hardware/qcom-caf/sdm845",
+		"hardware/qcom-caf/wlan",
+		"vendor/qcom/opensource/dataservices",
+		"vendor/qcom/opensource/display",
 	],
-}
-
-prebuilt_etc_xml {
-	name: "vendor.lge.hardware.biometrics.fingerprint@2.2-service",
-	owner: "lge",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.lge.hardware.biometrics.fingerprint@2.2-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-install_symlink {
-	name: "bdwlan_bdwlan_symlink",
-	soc_specific: true,
-	installed_location: "firmware/wlan/qca_cld/bdwlan.bin",
-	symlink_target: "/vendor/etc/wifi/bdwlan.bin",
-}
-
-install_symlink {
-	name: "bdwlan_ch0_bdwlan_ch0_symlink",
-	soc_specific: true,
-	installed_location: "firmware/wlan/qca_cld/bdwlan_ch0.bin",
-	symlink_target: "/vendor/etc/wifi/bdwlan_ch0.bin",
-}
-
-install_symlink {
-	name: "bdwlan_ch1_bdwlan_ch1_symlink",
-	soc_specific: true,
-	installed_location: "firmware/wlan/qca_cld/bdwlan_ch1.bin",
-	symlink_target: "/vendor/etc/wifi/bdwlan_ch1.bin",
-}
-
-install_symlink {
-	name: "libc++_shared_snpe_libc++_shared_symlink32",
-	soc_specific: true,
-	installed_location: "lib/libc++_shared.so",
-	symlink_target: "/vendor/lib/libc++_shared_snpe.so",
-}
-
-install_symlink {
-	name: "libc++_shared_snpe_libc++_shared_symlink64",
-	soc_specific: true,
-	installed_location: "lib64/libc++_shared.so",
-	symlink_target: "/vendor/lib64/libc++_shared_snpe.so",
 }
 
