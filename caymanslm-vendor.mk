@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/caymanslm/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/lge/caymanslm/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/lge/caymanslm/proprietary/vendor/etc/qdcm_calib_data_SW43103_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_SW43103_cmd_mode_dsc_dsi_panel.xml \
-    vendor/lge/caymanslm/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/lge/caymanslm/proprietary/vendor/etc/sensors/registry/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/ak991x_dri_0.json \
     vendor/lge/caymanslm/proprietary/vendor/etc/sensors/registry/config/etc_version:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/etc_version \
     vendor/lge/caymanslm/proprietary/vendor/etc/sensors/registry/config/icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/icm4x6xx_0.json \
