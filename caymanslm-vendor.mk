@@ -23,6 +23,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/caymanslm/proprietary/vendor/etc/init/vendor.lge.hardware.powerhint.rescontrol@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.powerhint.rescontrol@2.0-service.rc \
     vendor/lge/caymanslm/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/lge/caymanslm/proprietary/vendor/etc/init/vendor.trustonic.tee@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.1-service.rc \
+    vendor/lge/caymanslm/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/lge/caymanslm/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/lge/caymanslm/proprietary/vendor/etc/qdcm_calib_data_SW43103_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_SW43103_cmd_mode_dsc_dsi_panel.xml \
     vendor/lge/caymanslm/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/lge/caymanslm/proprietary/vendor/etc/sensors/registry/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/registry/config/ak991x_dri_0.json \
